@@ -1,0 +1,207 @@
+#container {
+    height: 300px;
+    min-width: 310px;
+    max-width: 800px;
+}
+.floatLeft { width: 50%; float: left; }
+.floatRight {width: 50%; float: right; }
+.container { overflow: hidden; }
+.App {
+  text-align: left;
+  background-color: #fff; 
+  
+}
+
+.App-logo {
+  height: 90px;
+  width: 250px;
+  padding: 5px 5px 5px;
+  pointer-events: none;
+
+}
+
+.Main {
+  background-color: #F9F9FB;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.RowPadding {
+  padding: 15px 10px 0px 0px;
+}
+
+.ColPadding {
+  padding-top: 16px;
+}
+
+.ColPaddingTable {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.DashTitle {
+  font-size: 22px; 
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 22px;
+}
+
+.Dashname {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 15px 10px 10px;
+  color: #2E4E87;
+  margin-left: 0px;
+  margin-right: 22px;
+}
+
+.TableProperty{
+  min-height: 300px;
+  margin-right: 10px;
+  /*overflow-y: scroll;*/
+}
+
+.OrgTableProperty{
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.DashboardSavePage{
+  float: right;
+  margin-top: -30px;
+  background-color: #2E4E87;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/**OrganismTable**/
+
+.OrgRow {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.OrgColumn {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.OrgDefinition {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  /*display:inline-block;*/
+  height: 400px;
+  overflow-y: scroll;
+}
+.OrgDefinition {
+  float: right;
+  width: 50%;
+  padding: 5px;
+  display:inline;
+}
+
+/* Clearfix (clear floats) */
+.OrgRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.FooterBG{
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  height: 40px;
+}
+.FooterLeft{
+  float: left;
+  margin-left: 22px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+}
+
+.FooterRight{
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 22px;
+}
+
+.GlassTableName{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.GlassTablePropertyBlood{
+  min-height: 600px;
+  overflow-y: scroll;
+}
+.GlassTableProperty{
+  height: 200px;
+  overflow-y: scroll;
+}
+.WHOGlassTitle{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.StgIndicator{
+  margin-right: 10px; 
+  width: 40%;
+}
